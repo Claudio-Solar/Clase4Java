@@ -12,6 +12,7 @@ package com.mycompany.clase4java;
 public class Clase4Java {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      Formularios.FormulariosGeneral objetoFormularioGeneral= new Formularios.FormulariosGeneral();
+      objetoFormularioGeneral.setVisible(true);
     }
 }
